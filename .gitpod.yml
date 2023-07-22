@@ -1,8 +1,8 @@
 # List the start up tasks. Learn more: https://www.gitpod.io/docs/configure/workspaces/tasks
 tasks:
   - name: SCSS
-    init: echo 'npm install node-sass' # install sass
-    command: echo 'npm run scss'
+    init: npm install node-sass
+    command: npm run scss
 
 # List the ports to expose. Learn more: https://www.gitpod.io/docs/configure/workspaces/ports
 ports:
