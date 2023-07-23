@@ -33,10 +33,17 @@ h1, h2, h3, h4, h5, h6 {
 .hero {
     padding-inline: 2vw;
     background-color: $tertiary-color;
+    padding-block: clamp(3.75rem, 4rem, 5.625rem);
 }
+
+.region {
+    padding-top: clamp(3.75rem, 4rem, 5.625rem);
+    padding-bottom: clamp(3.75rem, 4rem, 5.625rem);
+  }
 
 .wrapper {
     width: clamp(16rem, 95vw, 85rem);
+    margin-inline: auto;
 }
 
 .content__full-width{
