@@ -4,7 +4,7 @@ tasks:
     init: npm install node-sass
     command: npm run scss
   - name: Start web server
-    init: python -m http.server 8000
+    command: python -m http.server 8000
 
 # List the ports to expose. Learn more: https://www.gitpod.io/docs/configure/workspaces/ports
 ports:
